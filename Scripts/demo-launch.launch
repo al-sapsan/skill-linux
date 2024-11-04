@@ -1,0 +1,4 @@
+<launch>
+    <node name="demo_publisher" pkg="rostopic" type="rostopic" args="pub -r 10 /demo_topic std_msgs/String 'data: Hello, ROS!'" />
+</launch>
+
