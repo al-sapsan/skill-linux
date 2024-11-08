@@ -41,7 +41,7 @@ ___
 ___
 # Модуль пройден
 * Все задания выполнены. 
-* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module4/module4-pw.pdf).
+* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module4/practice_work4.pdf).
 * Созданный код приложен к настоящей ветке репозитория.
 ___
 
