@@ -30,6 +30,6 @@ ___
 ___
 # Модуль пройден
 * Все задания выполнены. 
-* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module2/m2-pw.pdf).
+* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module2/practice_work2.pdf).
 * Созданные скрипты приложены в настоящей ветке репозитория.
 
