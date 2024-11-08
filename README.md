@@ -50,5 +50,5 @@ ___
 ___
 # Модуль пройден
 * Все задания выполнены.
-* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module1/m1-pw-v2.pdf).
+* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module1/practice_work1.pdf).
 
