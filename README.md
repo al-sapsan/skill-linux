@@ -9,4 +9,14 @@ ___
 ___
 ## С уважением, Олег Соколов.
 ___
+___
+# Welcome to Oleg Sokolov's profile!
+___
+## You are currently in the repository of the course "Linux for Robotics".
+This repository is intended for posting practical work, scripts and technical literature.
+The repository structure is divided into branches in accordance with the name and numbering of the training modules.
 
+## Welcome to the repository and enjoy browsing!
+___
+## Sincerely, Oleg Sokolov
+___
