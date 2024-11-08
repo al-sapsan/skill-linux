@@ -44,6 +44,6 @@ ___
 ___
 # Модуль пройден
 * Все задания выполнены. 
-* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module3/m3-pw.pdf).
+* Процесс выполнения оформлен в [документальном виде](https://github.com/al-sapsan/skill-linux/blob/module3/practice_work3.pdf).
 * Созданные скрипты приложены в настоящей ветке репозитория.
 
