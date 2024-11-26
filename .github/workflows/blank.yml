@@ -1,0 +1,46 @@
+# .github/workflows/bash-ci.yml
+name: CI for Bash scripts
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Установка ShellCheck для линтинга Bash-скриптов
+      - name: Install ShellCheck
+        run: sudo apt-get install -y shellcheck
+
+      # Линтинг Bash-скриптов с помощью ShellCheck
+      - name: Lint Bash scripts
+        run: |
+          find . -name "*.sh" -print0 | xargs -0 shellcheck
+
+      # Установка Bats для тестирования Bash-скриптов
+      - name: Install Bats
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y bats
+
+      # Запуск тестов с помощью Bats
+      - name: Run Bats tests
+        run: bats tests
+
+      # (Опционально) Установка и использование bashcov для анализа покрытия
+      - name: Install Bashcov and Simplecov
+        run: |
+          gem install bashcov simplecov
+
+      - name: Run tests with coverage
+        run: |
+          bashcov bats tests
